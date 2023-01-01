@@ -1,0 +1,16 @@
+class StringDemo {
+    public static void main(String[] args) {
+        String str1 = "java is my favourite language";
+        String str2 = "java is interesting Language";
+        String str3 = str1;//reference of str1 ,no memory allocation
+        System.out.println("length of str1 is" + str1.length());
+        System.out.println("character at index 3 is  " + str2.charAt(3));
+        if(str1.equals(str2)){
+        System.out.println("str1 and 2 are equal");
+        }
+        else{
+            System.out.println("str1 and 2 are not equal");
+        }
+    }
+}
+
