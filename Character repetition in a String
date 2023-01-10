@@ -1,0 +1,17 @@
+ class Test
+ public static void main(String[] args) {
+      int ch=0;
+      String str="umbrella";
+       
+        
+           for (int i=0;i<str.length();i++) {
+
+            if(str.charAt(i)=='l'){
+             ch++;
+            }
+                
+           }
+            System.out.println("the character l is repeated " + ch + " times");
+        }
+      }
+    
