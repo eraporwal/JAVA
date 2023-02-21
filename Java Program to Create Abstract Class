@@ -1,0 +1,21 @@
+abstract class Aa {
+    abstract void show();
+
+    void display() {
+        System.out.println("hello from display");
+    }
+}
+
+class B extends Aa {
+    void show() {
+        System.out.println("hello from show");
+    }
+}
+
+class Testt {
+    public static void main(String[] args) {
+        B b1 = new B();
+        b1.show();
+        b1.display();
+    }
+}
